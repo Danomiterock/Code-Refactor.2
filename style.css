@@ -21,7 +21,7 @@
     text-decoration-color: indigo;
 }
 
-#ul_hyperlinks {
+.hyperlinks {
     display: inline;
     font-size: 35px;
     font-style: Times New Roman;
@@ -30,9 +30,10 @@
 
 }
 
-.class {
+.banner-image {
+    display: block;
     width: 100%;
-    height: auto;S
+    height: auto;
 }
 
 .body {
