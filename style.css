@@ -13,19 +13,18 @@
 }
 
 #company-name {
-    display: block;
-    block-size: 65px;
-    background-color: cadetblue;
-    font-style: oblique;
-    font-size: 50px;
-    text-decoration-color: indigo;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: white;
 }
 
 .hyperlinks {
-    display: inline;
-    font-size: 35px;
-    font-style: Times New Roman;
-    text-decoration: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 25px;
+    color: aqua;
     }
 
 #banner-image {
