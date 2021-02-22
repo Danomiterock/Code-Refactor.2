@@ -26,9 +26,7 @@
     font-size: 35px;
     font-style: Times New Roman;
     text-decoration: aquamarine;
-    text-decoration: underline;
-
-}
+    }
 
 #banner-image {
     display: block;
@@ -36,7 +34,4 @@
     height: auto;
 }
 
-.body {
-    background-color: aquamarine;
-}
 
