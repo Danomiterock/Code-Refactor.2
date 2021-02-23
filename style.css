@@ -33,11 +33,6 @@
     height: 100px;
 }
 
-.card {
-    display: flex;
-    flex-wrap: wrap;
-
-}
 
 #about-me h2, p {
     display: flex;
@@ -47,3 +42,12 @@
     color: white;
 }
 
+.card {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.box1 {
+display: block
+}
