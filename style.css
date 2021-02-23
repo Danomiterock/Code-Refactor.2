@@ -1,57 +1,46 @@
 * {
-    margin: 0%;
-    padding: 0%;
-    list-style: none;
-    text-decoration: none;
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  text-decoration: none;
 }
-
+​
+html {
+  scroll-behavior: smooth;
+}
+​
 .header {
-    width: 100%;
-    height: 80px;
-    display: block;
-    background-color: #101010;
+  width: 100%;
+  height: 80px;
+  background-color: #101010;
+  /* Tucker's Additions */
+  display: flex;
+  justify-content: space-between;
 }
-
-/*Company name in header*/
+​
 #company-name {
-    display: flex;
-    align-items: center;
-    font-size: 25px;
-    color: white;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  color: white;
 }
-
-/*This covers the hyperlinks in the header*/
+​
 .hyperlinks {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    font-size: 25px;
-    color: aqua;
-    }
-
-/*This section is for the green fence banner*/
-/*A portrait needs to be placed on the left hand side of the green fence banner directly under name*/
-#banner-image {
-    display: block;
-    width: 100%;
-    height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 25px;
+  color: aqua;
 }
-
-/*This section covers the bio*/
-#about-me h2, p {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
+​
+#banner {
+  background-image: url("../img/header.jpg");
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 600px;
 }
-/*this is for the work sample images and links*/
-.card {
-    display: flex;
-    flex-wrap: wrap;
-
-}
-/*box1 in the work samples*/
-.box1 {
-display: block
-}
+​
+#banner img {
+  width: 300px;
+  height: auto;
