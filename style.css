@@ -12,6 +12,7 @@
     background-color: #101010;
 }
 
+/*Company name in header*/
 #company-name {
     display: flex;
     align-items: center;
@@ -19,6 +20,7 @@
     color: white;
 }
 
+/*This covers the hyperlinks in the header*/
 .hyperlinks {
     display: flex;
     align-items: center;
@@ -27,13 +29,15 @@
     color: aqua;
     }
 
+/*This section is for the green fence banner*/
+/*A portrait needs to be placed on the left hand side of the green fence banner directly under name*/
 #banner-image {
     display: block;
     width: 100%;
     height: 100px;
 }
 
-
+/*This section covers the bio*/
 #about-me h2, p {
     display: flex;
     flex-wrap: wrap;
@@ -41,13 +45,13 @@
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
-
+/*this is for the work sample images and links*/
 .card {
     display: flex;
     flex-wrap: wrap;
 
 }
-
+/*box1 in the work samples*/
 .box1 {
 display: block
 }
