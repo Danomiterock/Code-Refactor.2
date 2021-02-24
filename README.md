@@ -95,6 +95,8 @@ You are required to submit BOTH of the following for review:
 - - -
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
 
-https://github.com/Danomiterock/Code-Refactor.2
+https://github.com/Danomiterock/Code-Refactor.2/index.html
+
+https://github.com/Danomiterock/Code-Refactor.2.git/
 
 
