@@ -29,14 +29,28 @@ body {
 
 /* Unable to create space between each element using padding or margin for unknown reason. */
 
-.hyperlinks {
+.buttons {
   display: flex;
+  height: 50px;
+  width: auto;
+  border-radius: 15%;
   align-items: center;
   justify-content: flex-end;
+  justify-content: space-evenly;
   font-size: 25px;
-  color: aqua;
-  padding-left: 20px;
-  margin-left: 20px;
+  background-color: floralwhite;
+  padding-left: 50px;
+  margin-left: 50px;
+}
+
+.btn {
+  display: block;
+  height: 50px;
+  width: 100px;
+  font-size: 16px;
+  font-weight:bolder;
+  border-width: 2px;
+  border-radius: 10%;
 }
 
 .banner-image {
@@ -55,6 +69,10 @@ body {
   height: auto;
 }
 
+#about-me {
+  font-size: 24px;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -62,9 +80,10 @@ body {
   flex-wrap: wrap;
 }
 
-/*CSS targeting fails on all box images in external style sheet for unknown reason. Style entered in html.*/
 
-/*.box1 {
+/*CSS targeting fails on all box images in external style sheet for unknown reason. Style entered in html.*/
+/* 
+.box1 {
   height: 200px;
   width: auto;
   border-radius: 5%;
@@ -90,12 +109,12 @@ body {
   width: auto;
   border-radius: 5%;
   border-width: 1px;
-}*/
+} */
 
 #Contact {
- font-size: 16px; 
+ font-size: 24px; 
 }
 
 #Blog {
-  font-size: 25px;
+  font-size: 32px;
 }
